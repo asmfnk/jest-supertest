@@ -12,6 +12,6 @@ app.listen(3456);
 //確認のためコンソールに出力します。
 console.log('Server is online.');
 //app.getでGETすることができます。最初の引数を変更することでURLが変更できます。二つ目が実行内容です。
-app.get('/test', function (req, res) {
+app.get('/api/test', function (req, res) {
   res.status(200).send('hello world!')
 })

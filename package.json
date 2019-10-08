@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest tests --forceExit --updateSnapshot",
+    "pretest": "echo 'start test!.'"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.3"
